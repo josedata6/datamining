@@ -8,9 +8,11 @@ from sklearn.metrics import mean_squared_error
 np.random.seed(42)
 X = np.random.rand(100, 5)  # 100 samples, 5 features
 y = 3 * X[:, 0] + 2 * X[:, 1] - 1.5 * X[:, 2] + np.random.randn(100)
+
 # Target variable with noise
 df = pd.DataFrame(X, columns=[f'Feature_{i}' for i in range(1, 6)]) 
 df['Target'] = y
+
 # Split Data into Training and Testing Sets
 X_train, X_test, y_train, y_test = train_test_split(df.drop(columns=["Target"]),\
   df["Target"], test_size=0.2, random_state=42)
@@ -23,6 +25,7 @@ forward_selector = SequentialFeatureSelector(model, n_features_to_select="auto",
 forward_selector.fit(X_train, y_train)
 selected_forward = X_train.columns[forward_selector.get_support()]
 print(f"Selected Features (Forward): {list(selected_forward)}")
+
 # Backward Feature Selection (Removing Features Step by Step)
 backward_selector = SequentialFeatureSelector(model, n_features_to_select="auto", \
   direction="backward", cv=5)
