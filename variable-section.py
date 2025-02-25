@@ -31,13 +31,16 @@ backward_selector = SequentialFeatureSelector(model, n_features_to_select="auto"
 backward_selector.fit(X_train, y_train)
 selected_backward = X_train.columns[backward_selector.get_support()]
 print(f"Selected Features (Backward): {list(selected_backward)}")
+
 # Train and Evaluate Models
 X_train_forward, X_test_forward = X_train[selected_forward], X_test[selected_forward]
 X_train_backward, X_test_backward = X_train[selected_backward], X_test[selected_backward]
+
 # Train forward selection model
 model.fit(X_train_forward, y_train)
 y_pred_forward = model.predict(X_test_forward)
 mse_forward = mean_squared_error(y_test, y_pred_forward)
+
 # Train backward selection model
 model.fit(X_train_backward, y_train)
 y_pred_backward = model.predict(X_test_backward)
