@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import r2_score
+
 # Set random seed for reproducibility
 np.random.seed(42)
 # Step 1: Generate synthetic data
