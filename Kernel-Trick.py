@@ -16,6 +16,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Train an SVM classifier
 svm_model = SVC(kernel='rbf')
 svm_model.fit(X_train, y_train)
+
 # Make predictions
 y_pred = svm_model.predict(X_test)
 
