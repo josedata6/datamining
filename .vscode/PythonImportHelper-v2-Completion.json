@@ -9,6 +9,135 @@
         "documentation": {}
     },
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "make_classification",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -34,15 +163,6 @@
         "documentation": {}
     },
     {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
-        "documentation": {}
-    },
-    {
         "label": "LinearRegression",
         "importPath": "sklearn.linear_model",
         "description": "sklearn.linear_model",
@@ -72,62 +192,6 @@
         "description": "sklearn.linear_model",
         "isExtraImport": true,
         "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "r2_score",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "mean_squared_error",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "r2_score",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "mean_squared_error",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
-        "isExtraImport": true,
-        "detail": "sklearn.model_selection",
-        "documentation": {}
-    },
-    {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
-        "isExtraImport": true,
-        "detail": "sklearn.model_selection",
-        "documentation": {}
-    },
-    {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
-        "isExtraImport": true,
-        "detail": "sklearn.model_selection",
         "documentation": {}
     },
     {
@@ -160,6 +224,78 @@
         "description": "sklearn.feature_selection",
         "isExtraImport": true,
         "detail": "sklearn.feature_selection",
+        "documentation": {}
+    },
+    {
+        "label": "plot_decision_boundary",
+        "kind": 2,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "def plot_decision_boundary(X, y, model):\n    plt.figure(figsize=(10, 6))\n    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1\n    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1\n    xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.01),\n                         np.arange(y_min, y_max, 0.01))\n    Z = model.predict(np.c_[xx.ravel(), yy.ravel()])\n    Z = Z.reshape(xx.shape)\n    plt.contourf(xx, yy, Z, alpha=0.8)\n    plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k', marker='o')",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "svm_model",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "svm_model = SVC(kernel='rbf')\nsvm_model.fit(X_train, y_train)\n# Make predictions\ny_pred = svm_model.predict(X_test)\n# Compute performance metrics\naccuracy = accuracy_score(y_test, y_pred)\nprecision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\n# Display results",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "y_pred = svm_model.predict(X_test)\n# Compute performance metrics\naccuracy = accuracy_score(y_test, y_pred)\nprecision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\n# Display results\nprint(\"Performance Metrics:\")\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "accuracy = accuracy_score(y_test, y_pred)\nprecision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\n# Display results\nprint(\"Performance Metrics:\")\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")\nprint(f\"F1 Score: {f1:.2f}\")",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "precision",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "precision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\n# Display results\nprint(\"Performance Metrics:\")\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")\nprint(f\"F1 Score: {f1:.2f}\")\n#visualize the decision boundary",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "recall",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "recall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\n# Display results\nprint(\"Performance Metrics:\")\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")\nprint(f\"F1 Score: {f1:.2f}\")\n#visualize the decision boundary\ndef plot_decision_boundary(X, y, model):",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "f1",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "f1 = f1_score(y_test, y_pred)\n# Display results\nprint(\"Performance Metrics:\")\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")\nprint(f\"F1 Score: {f1:.2f}\")\n#visualize the decision boundary\ndef plot_decision_boundary(X, y, model):\n    plt.figure(figsize=(10, 6))",
+        "detail": "Kernel-Trick",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "Kernel-Trick",
+        "description": "Kernel-Trick",
+        "peekOfCode": "cm = confusion_matrix(y_test, y_pred)\nprint(\"Confusion Matrix:\")\nprint(cm)",
+        "detail": "Kernel-Trick",
         "documentation": {}
     },
     {
